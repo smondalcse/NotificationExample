@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sanat.notificationexample.MainActivity">
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:onClick="SendNotification"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Send Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_N_ReplyAction"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Notification With Reply Action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_N_ProgressBar"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Notification With ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_N_ExpandableImg"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Notification With Expandable Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_N_ExpandableTxt"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Notification With Expandable Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
